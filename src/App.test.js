@@ -2,12 +2,7 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 import { Provider } from 'react-redux';
 import store from './store/store'
-import { mount } from 'enzyme';
-import { MemoryRouter } from 'react-router';
-import Devices from './component/devices'
-import Device from './component/device'
 import request from "supertest";
-
 import Enzyme from 'enzyme';
 // Import Adapter
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';

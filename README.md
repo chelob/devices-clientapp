@@ -1,16 +1,36 @@
 
 # Description
-This project is a clirnt application that allow to see and manage devices that come from a backend API server.
+This project is a client application that allow to see and manage devices that come from a backend API server.
 
 # Steps to Start the project
 
 1. Download or clone this repository in order to use the server app. (https://github.com/NinjaMSP/devicesTask_serverApp).
 
-2. Install node dependencies by running in the backed API's server repository folder:
+2. Install node dependencies and run the backend project by running in the backed API's server repository folder:
 ```
-    yarn install;
-    yarn start;
+    yarn install
+    yarn start
 ```
+
+3. Download or clone the client application repository.
+
+4. Install node dependencies and run the client application project by running in the client application repository folder:
+```
+    yarn install
+    yarn start
+```
+
+# Steps to Run tests
+
+1. In the client application project folder run the following command to run the test:
+```
+    yarn test
+```
+2. The app test consist in 2 tests
+
+    1. Renders screen: this test verifies if the app is being rendered.
+    2. Backend is up: this test verifies if the backend server is running.
+
 
 # Getting Started with Create React App
 
